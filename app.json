@@ -14,13 +14,22 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.HairpinApp"
+      "bundleIdentifier": "com.anonymous.HairpinApp",
+      "config": {
+        "googleMapsApiKey": "AIzaSyBu-PHgxxSK4OpcxfRvFukje2NSuCeTcyM"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBu-PHgxxSK4OpcxfRvFukje2NSuCeTcyM"
+        }
+      },
+      "package": "com.anonymous.HairpinApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"

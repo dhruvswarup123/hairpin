@@ -56,6 +56,8 @@ DerivedData
 *.ipa
 *.xcuserstate
 project.xcworkspace
+ios/Pods/
+ios/.xcode.env.local
 
 # Android/IntelliJ
 build/
@@ -67,6 +69,8 @@ local.properties
 .cxx/
 *.keystore
 !debug.keystore
+android/app/debug
+android/app/release
 
 # node.js
 node_modules/
@@ -78,3 +82,35 @@ yarn-error.log
 .env
 .env.*
 !.env.example
+
+# Google Maps API Keys and sensitive files
+android/app/src/main/AndroidManifest.xml
+ios/GoogleService-Info.plist
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# VSCode
+.vscode/
+
+# Jest
+coverage/
+
+# Ruby / CocoaPods
+/ios/Pods/
+/vendor/bundle/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
